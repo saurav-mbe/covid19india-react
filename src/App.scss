@@ -1699,7 +1699,7 @@ abbr {
   font-size: 12px;
   margin-bottom: 2.5rem;
   overflow-x: auto;
-  width: 28rem;
+  width: 35rem;
 
   .state-meta {
     align-items: center;
@@ -5217,4 +5217,8 @@ footer {
     opacity: 0;
     transform: translateY(20px);
   }
+}
+
+.is-tested {
+  color: #3fba87;
 }

@@ -138,7 +138,6 @@ function PureDistrictRow({
           </Tooltip>
         )}
       </div>
-
       {PRIMARY_STATISTICS.map((statistic) => (
         <Cell key={statistic} {...{statistic}} data={data} />
       ))}
